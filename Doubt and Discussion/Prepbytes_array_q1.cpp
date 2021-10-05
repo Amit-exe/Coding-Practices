@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//https://mycode.prepbytes.com/problems/arrays/MINMAX1 (Question link)
+ 
+//https://mycode.prepbytes.com/problems/fundamentals/TABLECHAIR(Question link)
 
 int main()
 {
