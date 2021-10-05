@@ -2,7 +2,7 @@
 using namespace std;
 
  
-//https://mycode.prepbytes.com/problems/fundamentals/TABLECHAIR(Question link)
+//https://mycode.prepbytes.com/problems/arrays/MINMAX1 (Question link)
 
 int main()
 {
@@ -10,13 +10,13 @@ int main()
   int t;
   cin>>t;
   while(t--){
-    int n;
+    long long n;
     cin>>n;
-    int a[n];
-    for(int i=0;i<n;i++){
+    long long a[n];
+    for(long i=0;i<n;i++){
       cin>>a[i];
     }
-    int mi=10000000,ma=0;
+    long long mi=a[0],ma=a[0];
     for(int i=0;i<n;i++){
       if(a[i]<mi) mi = a[i];
       if(a[i]>ma) ma = a[i];
